@@ -1,0 +1,155 @@
+:root {
+  --main-header-color: white;
+  --regular: 'Lato-Regular';
+  --bold: 'Lato-Bold';
+  --gray: #404040;
+  --lightgray: #909090;
+  --darkwhite: #f5f6f7;
+  --darkgray: #404040;
+}
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('./assets/fonts/Lato/Lato-Regular.ttf')
+}
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url('./assets/fonts/Lato/Lato-Bold.ttf')
+}
+body{
+  margin: 0;
+  font-family: var(--regular), sans-serif;
+}
+.header {
+  background-image: url("./assets/images/Header-Desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4em;
+}
+
+.header-receipt {
+  background-image: url("./assets/images/Header-Desktop-Pago.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4em;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 80%;
+  margin-top: 3%;
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+  flex-direction: column
+}
+
+.sign-img {
+  max-width: 20%;
+}
+
+.footer {
+  background-color: var(--darkwhite);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.logo {
+  width: 8em;
+}
+
+.item-container {
+  margin-bottom: 2em;
+}
+
+.header-text {
+  color: var(--main-header-color);
+}
+
+.price-style {
+  color: var(--darkgray);
+  font-size: 2em;
+  font-family: var(--bold);
+}
+
+.bold {
+  font-family: var(--bold), sans-serif;
+}
+
+.text1 {
+  font-size: 1.6em;
+}
+
+.text2 {
+  font-size: 1.2em;
+}
+
+.content-title{
+  color: var(--lightgray);
+  margin: 0;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.content-description {
+  color: var(--gray);
+  margin: 0;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.col-footer {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  align-items: center;
+}
+
+.col-body {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.col-left {
+  align-items: flex-start;
+}
+
+.col-right {
+  align-items: flex-end;
+}
+
+.col-container {
+  width: 80%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-item {
+  color: var(--lightgray);
+  font-size: .8em;
+  margin: 0;
+  margin-bottom: 1.2em;
+}
+
+.last-item {
+  margin-top: 2em;
+}
+
+.reciept-pb {
+  padding-bottom: 2em;
+}
